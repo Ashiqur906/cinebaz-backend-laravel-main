@@ -1,0 +1,19 @@
+{
+    "name": "cinebaz/artist",
+    "description": "This will artist pagckage",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Shaykat Ali",
+            "email": "shaykatali932@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Cinebaz\\Artist\\": "src/"
+        }
+    }
+}

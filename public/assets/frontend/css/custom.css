@@ -1,0 +1,42 @@
+.music-play-lists li span.active {
+    background: var(--iq-primary);
+    color: var(--iq-white);
+    transition: all 0.45s ease 0s;
+    -webkit-transition: all 0.45s ease 0s;
+    -moz-transition: all 0.45s ease 0s;
+    -o-transition: all 0.45s ease 0s;
+}
+
+.exeptionlogin-caption{
+    position: absolute;
+    width: 100%;
+    bottom: 20%;
+}
+
+.exeptionlogin {
+    text-align: center;
+}
+i.search-link.ri-search-line {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+}
+.goSearchBox{
+    margin-bottom: 0;
+}
+.SearchView {
+    background: #191919;
+    opacity: .8;
+    position: absolute;
+    width: 100%;
+}
+.SearchView ul {
+    display: inline-block;
+    padding: 10px 15px 10px 15px;
+    width: 100%;
+}
+.SearchView ul li {
+    display: inline-block !important;
+    width: 100%;
+    text-align: left;
+}

@@ -1,0 +1,21 @@
+.movie-price {
+        transition: all 1.3s linear;
+        margin-top: 0px !important;
+        /* margin-left: -69px; */
+        /* visibility: hidden; */
+        background: #353433;
+        height: 17px;
+        width: 0;
+        position: absolute;
+        left: 20px;
+        top: 14px;
+        /* padding: 0 5px; */
+        overflow: hidden;
+        /* z-index: -99999999; */
+    }
+    li.slide-item:hover .movie-price {
+        /* margin-left: 0px; */
+        /* visibility: visible; */
+        width: 50%;
+        /* left: 20px; */
+    }
